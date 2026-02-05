@@ -4,6 +4,8 @@
 # 5의 배수, 'buzz'
 # 15의 배수, 'fizzbuzz'
 for i in range(1, 15+1):
+    if i % 15 == 0:
+        print('fizzbuzz')
     if i % 3 == 0:
         print('fizz')
     elif i % 5 == 0:
